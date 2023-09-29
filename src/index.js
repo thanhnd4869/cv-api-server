@@ -1,15 +1,15 @@
 /**
  * Created by ThanhND
  */
-import express from "express";
+import express from 'express';
 
 const app = express();
 
-const hostname = "localhost";
+const hostname = 'localhost';
 const port = 8000;
 
-app.get("/", (req, res) => {
-  res.end("<h1>Hello World!</h1><hr>");
+app.get('/', (req, res) => {
+  res.end('<h1>Hello World!</h1><hr>');
 });
 
 app.listen(port, hostname, () => {
